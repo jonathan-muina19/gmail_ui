@@ -15,7 +15,7 @@ class _SplashScreenState extends State<SplashScreen> {
   // Cette fonction permet d'attendre 5 secondes avant d'afficher la HomeScreen
    void initState(){
     super.initState();
-    Timer(Duration(seconds: 5), (){
+    Timer(Duration(seconds: 3), (){
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>HomeScreen()
       ));
     });
